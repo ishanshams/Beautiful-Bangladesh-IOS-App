@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB797FB1C923D2900D8FBA1 /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB797FA1C923D2900D8FBA1 /* roundButton.swift */; };
+		2DB797FD1C9287AB00D8FBA1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DB797FC1C9287AB00D8FBA1 /* btn.wav */; };
+		2DB797FF1C9289F400D8FBA1 /* SoundFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB797FE1C9289F400D8FBA1 /* SoundFiles.swift */; };
 		2DE392A71C91143B00E8D6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE392A61C91143B00E8D6E3 /* AppDelegate.swift */; };
 		2DE392A91C91143B00E8D6E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE392A81C91143B00E8D6E3 /* ViewController.swift */; };
 		2DE392AC1C91143B00E8D6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE392AA1C91143B00E8D6E3 /* Main.storyboard */; };
 		2DE392AE1C91143B00E8D6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE392AD1C91143B00E8D6E3 /* Assets.xcassets */; };
 		2DE392B11C91143B00E8D6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE392AF1C91143B00E8D6E3 /* LaunchScreen.storyboard */; };
+		2DE392B91C91C88100E8D6E3 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE392B81C91C88100E8D6E3 /* AboutVC.swift */; };
+		2DE392BC1C91C8AA00E8D6E3 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE392BB1C91C8AA00E8D6E3 /* PhotoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB797FA1C923D2900D8FBA1 /* roundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
+		2DB797FC1C9287AB00D8FBA1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		2DB797FE1C9289F400D8FBA1 /* SoundFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundFiles.swift; sourceTree = "<group>"; };
 		2DE392A31C91143B00E8D6E3 /* Beautiful Bangladesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beautiful Bangladesh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE392A61C91143B00E8D6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE392A81C91143B00E8D6E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		2DE392AD1C91143B00E8D6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DE392B01C91143B00E8D6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DE392B21C91143B00E8D6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE392B81C91C88100E8D6E3 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		2DE392BB1C91C8AA00E8D6E3 /* PhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		2DE392A51C91143B00E8D6E3 /* Beautiful Bangladesh */ = {
 			isa = PBXGroup;
 			children = (
+				2DB797FC1C9287AB00D8FBA1 /* btn.wav */,
+				2DE392BA1C91C88700E8D6E3 /* Controllers */,
 				2DE392A61C91143B00E8D6E3 /* AppDelegate.swift */,
-				2DE392A81C91143B00E8D6E3 /* ViewController.swift */,
 				2DE392AA1C91143B00E8D6E3 /* Main.storyboard */,
 				2DE392AD1C91143B00E8D6E3 /* Assets.xcassets */,
 				2DE392AF1C91143B00E8D6E3 /* LaunchScreen.storyboard */,
 				2DE392B21C91143B00E8D6E3 /* Info.plist */,
+				2DB797FE1C9289F400D8FBA1 /* SoundFiles.swift */,
 			);
 			path = "Beautiful Bangladesh";
+			sourceTree = "<group>";
+		};
+		2DE392BA1C91C88700E8D6E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DE392A81C91143B00E8D6E3 /* ViewController.swift */,
+				2DE392B81C91C88100E8D6E3 /* AboutVC.swift */,
+				2DE392BB1C91C8AA00E8D6E3 /* PhotoVC.swift */,
+				2DB797FA1C923D2900D8FBA1 /* roundButton.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB797FD1C9287AB00D8FBA1 /* btn.wav in Resources */,
 				2DE392B11C91143B00E8D6E3 /* LaunchScreen.storyboard in Resources */,
 				2DE392AE1C91143B00E8D6E3 /* Assets.xcassets in Resources */,
 				2DE392AC1C91143B00E8D6E3 /* Main.storyboard in Resources */,
@@ -136,7 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE392A91C91143B00E8D6E3 /* ViewController.swift in Sources */,
+				2DB797FB1C923D2900D8FBA1 /* roundButton.swift in Sources */,
 				2DE392A71C91143B00E8D6E3 /* AppDelegate.swift in Sources */,
+				2DB797FF1C9289F400D8FBA1 /* SoundFiles.swift in Sources */,
+				2DE392B91C91C88100E8D6E3 /* AboutVC.swift in Sources */,
+				2DE392BC1C91C8AA00E8D6E3 /* PhotoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +314,7 @@
 				2DE392B71C91143B00E8D6E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
